@@ -8,4 +8,4 @@ WORKDIR /app
 COPY . /app
 
 # Write all the commands to run this python file, separated with comma.
-CMD ["python", "hello-world.py"]
+CMD ["python", "app.py"]
